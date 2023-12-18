@@ -1,0 +1,702 @@
+[
+  {
+    "title": "Dune (Dune, #1)",
+    "author": "Frank Herbert",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 1282425
+  },
+  {
+    "title": "Ender’s Game (Ender's Saga, #1)",
+    "author": "Orson Scott Card",
+    "image": "",
+    "rating": 86,
+    "ratingsCount": 1348038
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy (The Hitchhiker's Guide to the Galaxy, #1)",
+    "author": "Douglas Adams",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 1798218
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 4416799
+  },
+  {
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "image": "",
+    "rating": 79,
+    "ratingsCount": 2326523
+  },
+  {
+    "title": "Foundation (Foundation, #1)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 525551
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 1805279
+  },
+  {
+    "title": "Hyperion (Hyperion Cantos, #1)",
+    "author": "Dan Simmons",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 243981
+  },
+  {
+    "title": "Do Androids Dream of Electric Sheep?",
+    "author": "Philip K. Dick",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 439148
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "image": "",
+    "rating": 88,
+    "ratingsCount": 1086288
+  },
+  {
+    "title": "2001: A Space Odyssey",
+    "author": "Arthur C. Clarke",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 308231
+  },
+  {
+    "title": "I, Robot (Robot, #0.1)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 339476
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "author": "Kurt Vonnegut Jr.",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 1341877
+  },
+  {
+    "title": "Ready Player One (Ready Player One, #1)",
+    "author": "Ernest Cline",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 1133111
+  },
+  {
+    "title": "Stranger in a Strange Land",
+    "author": "Robert A. Heinlein",
+    "image": "",
+    "rating": 78,
+    "ratingsCount": 309309
+  },
+  {
+    "title": "The Foundation Trilogy (Foundation, #1-3)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 88,
+    "ratingsCount": 101753
+  },
+  {
+    "title": "The Hunger Games (The Hunger Games, #1)",
+    "author": "Suzanne Collins",
+    "image": "",
+    "rating": 87,
+    "ratingsCount": 8314522
+  },
+  {
+    "title": "Neuromancer (Sprawl, #1)",
+    "author": "William Gibson",
+    "image": "",
+    "rating": 78,
+    "ratingsCount": 319387
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 174219
+  },
+  {
+    "title": "Childhood's End",
+    "author": "Arthur C. Clarke",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 156360
+  },
+  {
+    "title": "The Martian Chronicles",
+    "author": "Ray Bradbury",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 256233
+  },
+  {
+    "title": "Frankenstein: The 1818 Text",
+    "author": "Mary Wollstonecraft Shelley",
+    "image": "",
+    "rating": 77,
+    "ratingsCount": 1547589
+  },
+  {
+    "title": "The Forever War (The Forever War, #1)",
+    "author": "Joe Haldeman",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 163533
+  },
+  {
+    "title": "Flowers for Algernon",
+    "author": "Daniel Keyes",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 647651
+  },
+  {
+    "title": "The Time Machine",
+    "author": "H.G. Wells",
+    "image": "",
+    "rating": 78,
+    "ratingsCount": 508437
+  },
+  {
+    "title": "The Handmaid’s Tale (The Handmaid's Tale, #1)",
+    "author": "Margaret Atwood",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 1975602
+  },
+  {
+    "title": "Jurassic Park (Jurassic Park, #1)",
+    "author": "Michael Crichton",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 939170
+  },
+  {
+    "title": "The War of the Worlds",
+    "author": "H.G. Wells",
+    "image": "",
+    "rating": 77,
+    "ratingsCount": 306481
+  },
+  {
+    "title": "Rendezvous with Rama (Rama, #1)",
+    "author": "Arthur C. Clarke",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 162274
+  },
+  {
+    "title": "Snow Crash",
+    "author": "Neal Stephenson",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 275793
+  },
+  {
+    "title": "Speaker for the Dead (Ender's Saga, #2)",
+    "author": "Orson Scott Card",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 251481
+  },
+  {
+    "title": "Starship Troopers",
+    "author": "Robert A. Heinlein",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 224204
+  },
+  {
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 3742087
+  },
+  {
+    "title": "Old Man's War (Old Man's War, #1)",
+    "author": "John Scalzi",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 192293
+  },
+  {
+    "title": "A Canticle for Leibowitz (St. Leibowitz, #1)",
+    "author": "Walter M. Miller Jr.",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 107960
+  },
+  {
+    "title": "The Moon Is a Harsh Mistress",
+    "author": "Robert A. Heinlein",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 128737
+  },
+  {
+    "title": "A Clockwork Orange",
+    "author": "Anthony Burgess",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 699880
+  },
+  {
+    "title": "A Wrinkle in Time (Time Quintet, #1)",
+    "author": "Madeleine L'Engle",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 1181066
+  },
+  {
+    "title": "The Dispossessed: An Ambiguous Utopia",
+    "author": "Ursula K. Le Guin",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 120671
+  },
+  {
+    "title": "Solaris",
+    "author": "Stanisław Lem",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 103166
+  },
+  {
+    "title": "Ringworld (Ringworld, #1)",
+    "author": "Larry Niven",
+    "image": "",
+    "rating": 79,
+    "ratingsCount": 120126
+  },
+  {
+    "title": "The Stand",
+    "author": "Stephen King",
+    "image": "",
+    "rating": 87,
+    "ratingsCount": 744231
+  },
+  {
+    "title": "Foundation and Empire (Foundation, #2)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 199871
+  },
+  {
+    "title": "The Ultimate Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1-5)",
+    "author": "Douglas Adams",
+    "image": "",
+    "rating": 88,
+    "ratingsCount": 319532
+  },
+  {
+    "title": "Contact",
+    "author": "Carl Sagan",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 140667
+  },
+  {
+    "title": "Ubik",
+    "author": "Philip K. Dick",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 105526
+  },
+  {
+    "title": "The Fall of Hyperion (Hyperion Cantos, #2)",
+    "author": "Dan Simmons",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 122541
+  },
+  {
+    "title": "The Road",
+    "author": "Cormac McCarthy",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 879271
+  },
+  {
+    "title": "A Fire Upon the Deep (Zones of Thought, #1)",
+    "author": "Vernor Vinge",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 59858
+  },
+  {
+    "title": "The Stars My Destination",
+    "author": "Alfred Bester",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 50484
+  },
+  {
+    "title": "Second Foundation (Foundation, #3)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 180608
+  },
+  {
+    "title": "Leviathan Wakes (The Expanse, #1)",
+    "author": "James S.A. Corey",
+    "image": "",
+    "rating": 86,
+    "ratingsCount": 256996
+  },
+  {
+    "title": "I Am Legend",
+    "author": "Richard Matheson",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 128431
+  },
+  {
+    "title": "The Man in the High Castle",
+    "author": "Philip K. Dick",
+    "image": "",
+    "rating": 72,
+    "ratingsCount": 208214
+  },
+  {
+    "title": "Ender's Shadow (The Shadow Series, #1)",
+    "author": "Orson Scott Card",
+    "image": "",
+    "rating": 86,
+    "ratingsCount": 170324
+  },
+  {
+    "title": "The Giver (The Giver, #1)",
+    "author": "Lois Lowry",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 2384491
+  },
+  {
+    "title": "The Mote in God's Eye (Moties, #1)",
+    "author": "Larry Niven",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 69342
+  },
+  {
+    "title": "The Restaurant at the End of the Universe (Hitchhiker's Guide to the Galaxy, #2)",
+    "author": "Douglas Adams",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 281245
+  },
+  {
+    "title": "The Caves of Steel (Robot, #1)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 97984
+  },
+  {
+    "title": "Cat's Cradle",
+    "author": "Kurt Vonnegut Jr.",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 395401
+  },
+  {
+    "title": "Dome: Rebellion (Dome, #1)",
+    "author": "Johnathon Nicolaou",
+    "image": "",
+    "rating": 90,
+    "ratingsCount": 228
+  },
+  {
+    "title": "Red Mars (Mars Trilogy, #1)",
+    "author": "Kim Stanley Robinson",
+    "image": "",
+    "rating": 77,
+    "ratingsCount": 80675
+  },
+  {
+    "title": "World War Z: An Oral History of the Zombie War",
+    "author": "Max Brooks",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 515989
+  },
+  {
+    "title": "Of Monsters And Planes",
+    "author": "Johnathon Nicolaou",
+    "image": "",
+    "rating": 92,
+    "ratingsCount": 197
+  },
+  {
+    "title": "The Player of Games (Culture, #2)",
+    "author": "Iain M. Banks",
+    "image": "",
+    "rating": 86,
+    "ratingsCount": 71084
+  },
+  {
+    "title": "The Diamond Age: Or, a Young Lady's Illustrated Primer",
+    "author": "Neal Stephenson",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 89368
+  },
+  {
+    "title": "Dr. Jekyll and Mr. Hyde",
+    "author": "Robert Louis Stevenson",
+    "image": "",
+    "rating": 77,
+    "ratingsCount": 556753
+  },
+  {
+    "title": "Journey to the Center of the Earth",
+    "author": "Jules Verne",
+    "image": "",
+    "rating": 77,
+    "ratingsCount": 195087
+  },
+  {
+    "title": "The Gods Themselves",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 62413
+  },
+  {
+    "title": "Wool Omnibus (Silo, #1)",
+    "author": "Hugh Howey",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 201797
+  },
+  {
+    "title": "Never Let Me Go",
+    "author": "Kazuo Ishiguro",
+    "image": "",
+    "rating": 77,
+    "ratingsCount": 666969
+  },
+  {
+    "title": "The Illustrated Man",
+    "author": "Ray Bradbury",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 96388
+  },
+  {
+    "title": "The Three-Body Problem (Remembrance of Earth’s Past, #1)",
+    "author": "Liu Cixin",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 297979
+  },
+  {
+    "title": "Doomsday Book (Oxford Time Travel, #1)",
+    "author": "Connie Willis",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 58928
+  },
+  {
+    "title": "Gateway (Heechee Saga, #1)",
+    "author": "Frederik Pohl",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 44341
+  },
+  {
+    "title": "Revelation Space (Revelation Space, #1)",
+    "author": "Alastair Reynolds",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 54623
+  },
+  {
+    "title": "The Day of the Triffids",
+    "author": "John Wyndham",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 105841
+  },
+  {
+    "title": "The Lathe of Heaven",
+    "author": "Ursula K. Le Guin",
+    "image": "",
+    "rating": 82,
+    "ratingsCount": 71386
+  },
+  {
+    "title": "Altered Carbon (Takeshi Kovacs, #1)",
+    "author": "Richard K. Morgan",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 104532
+  },
+  {
+    "title": "Anathem",
+    "author": "Neal Stephenson",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 70854
+  },
+  {
+    "title": "A Scanner Darkly",
+    "author": "Philip K. Dick",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 100562
+  },
+  {
+    "title": "Roadside Picnic",
+    "author": "Arkady Strugatsky",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 64552
+  },
+  {
+    "title": "Twenty Thousand Leagues Under the Sea (Captain Nemo, #2)",
+    "author": "Jules Verne",
+    "image": "",
+    "rating": 78,
+    "ratingsCount": 248266
+  },
+  {
+    "title": "The Chain Between Worlds (The Lost Artefacts #1)",
+    "author": "Johnathon Nicolaou",
+    "image": "",
+    "rating": 91,
+    "ratingsCount": 1081
+  },
+  {
+    "title": "The End of Eternity",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 55277
+  },
+  {
+    "title": "The Andromeda Strain (Andromeda, #1)",
+    "author": "Michael Crichton",
+    "image": "",
+    "rating": 78,
+    "ratingsCount": 252397
+  },
+  {
+    "title": "Foundation's Edge (Foundation, #4)",
+    "author": "Isaac Asimov",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 87525
+  },
+  {
+    "title": "Use of Weapons (Culture, #3)",
+    "author": "Iain M. Banks",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 47021
+  },
+  {
+    "title": "The Sparrow (The Sparrow, #1)",
+    "author": "Mary Doria Russell",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 74212
+  },
+  {
+    "title": "Lord of Light",
+    "author": "Roger Zelazny",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 32658
+  },
+  {
+    "title": "The Sirens of Titan",
+    "author": "Kurt Vonnegut Jr.",
+    "image": "",
+    "rating": 83,
+    "ratingsCount": 138242
+  },
+  {
+    "title": "The Invisible Man",
+    "author": "H.G. Wells",
+    "image": "",
+    "rating": 73,
+    "ratingsCount": 189237
+  },
+  {
+    "title": "Pandora's Star (Commonwealth Saga, #1)",
+    "author": "Peter F. Hamilton",
+    "image": "",
+    "rating": 85,
+    "ratingsCount": 49118
+  },
+  {
+    "title": "Ancillary Justice (Imperial Radch, #1)",
+    "author": "Ann Leckie",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 103497
+  },
+  {
+    "title": "The Windup Girl",
+    "author": "Paolo Bacigalupi",
+    "image": "",
+    "rating": 75,
+    "ratingsCount": 74350
+  },
+  {
+    "title": "We",
+    "author": "Yevgeny Zamyatin",
+    "image": "",
+    "rating": 78,
+    "ratingsCount": 94542
+  },
+  {
+    "title": "Parable of the Sower (Earthseed, #1)",
+    "author": "Octavia E. Butler",
+    "image": "",
+    "rating": 84,
+    "ratingsCount": 156880
+  },
+  {
+    "title": "A Princess of Mars (Barsoom, #1)",
+    "author": "Edgar Rice Burroughs",
+    "image": "",
+    "rating": 76,
+    "ratingsCount": 56951
+  },
+  {
+    "title": "Way Station",
+    "author": "Clifford D. Simak",
+    "image": "",
+    "rating": 81,
+    "ratingsCount": 26947
+  },
+  {
+    "title": "Planet of the Apes",
+    "author": "Pierre Boulle",
+    "image": "",
+    "rating": 80,
+    "ratingsCount": 40971
+  }
+]
