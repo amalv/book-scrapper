@@ -11,7 +11,7 @@ interface Book {
   title: string | null;
   author: string | null;
   image: string;
-  publishedDate: string;
+  publicationDate: string;
   rating: number | null;
   ratingsCount: number | null;
 }
@@ -25,7 +25,7 @@ async function scrapeBook(bookElement: Element): Promise<Book | null> {
   const title = titleElement ? titleElement.textContent : null;
   const author = authorElement ? authorElement.textContent : null;
   let image = "";
-  let publishedDate = "";
+  let publicationDate = "";
 
   if (title && linkElement) {
     try {
@@ -54,7 +54,7 @@ async function scrapeBook(bookElement: Element): Promise<Book | null> {
           const match = publicationInfoText.match(/First published ([\w\s,]+)/);
           if (match) {
             const date = parse(match[1], "MMMM d, yyyy", new Date());
-            publishedDate = format(date, "yyyy-MM-dd");
+            publicationDate = format(date, "yyyy-MM-dd");
           }
         }
       }
@@ -79,7 +79,7 @@ async function scrapeBook(bookElement: Element): Promise<Book | null> {
     }
   }
 
-  return { title, author, image, publishedDate, rating, ratingsCount };
+  return { title, author, image, publicationDate, rating, ratingsCount };
 }
 
 async function scrapeBooks(url: string) {
