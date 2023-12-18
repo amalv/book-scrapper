@@ -1,9 +1,86 @@
+import { parse, format } from "date-fns";
 import axios from "axios";
 import { JSDOM } from "jsdom";
 import fs from "fs";
 import dotenv from "dotenv";
+import ProgressBar from "progress";
 
 dotenv.config();
+
+interface Book {
+  title: string | null;
+  author: string | null;
+  image: string;
+  publishedDate: string;
+  rating: number | null;
+  ratingsCount: number | null;
+}
+
+async function scrapeBook(bookElement: Element): Promise<Book | null> {
+  const titleElement = bookElement.querySelector(".bookTitle span");
+  const authorElement = bookElement.querySelector(".authorName span");
+  const ratingElement = bookElement.querySelector(".minirating");
+  const linkElement = bookElement.querySelector(".bookTitle");
+
+  const title = titleElement ? titleElement.textContent : null;
+  const author = authorElement ? authorElement.textContent : null;
+  let image = "";
+  let publishedDate = "";
+
+  if (title && linkElement) {
+    try {
+      const googleBooksResponse = await axios.get(
+        `https://www.googleapis.com/books/v1/volumes?q=intitle:${title}`
+      );
+      if (
+        googleBooksResponse.data.items &&
+        googleBooksResponse.data.items.length > 0
+      ) {
+        image =
+          googleBooksResponse.data.items[0].volumeInfo.imageLinks.thumbnail;
+      }
+
+      // Follow the link to the book's page
+      const bookPageResponse = await axios.get(
+        `https://www.goodreads.com${linkElement.getAttribute("href")}`
+      );
+      const dom = new JSDOM(bookPageResponse.data);
+      const publicationInfoElement = dom.window.document.querySelector(
+        'p[data-testid="publicationInfo"]'
+      );
+      if (publicationInfoElement) {
+        const publicationInfoText = publicationInfoElement.textContent;
+        if (publicationInfoText) {
+          const match = publicationInfoText.match(/First published ([\w\s,]+)/);
+          if (match) {
+            const date = parse(match[1], "MMMM d, yyyy", new Date());
+            publishedDate = format(date, "yyyy-MM-dd");
+          }
+        }
+      }
+    } catch (error) {
+      console.error(
+        `Failed to fetch image for book "${title}": ${(error as Error).message}`
+      );
+      return null;
+    }
+  }
+
+  let rating = null;
+  let ratingsCount = null;
+  if (ratingElement && ratingElement.textContent) {
+    const ratingText = ratingElement.textContent;
+    const match = ratingText.match(
+      /(\d+\.\d+) avg rating — (\d+(?:,\d+)*) ratings/
+    );
+    if (match) {
+      rating = Math.round(parseFloat(match[1]) * 20); // Convert rating to 0-100 scale and round to an integer
+      ratingsCount = parseInt(match[2].replace(/,/g, ""));
+    }
+  }
+
+  return { title, author, image, publishedDate, rating, ratingsCount };
+}
 
 async function scrapeBooks(url: string) {
   const response = await axios.get(url);
@@ -12,29 +89,17 @@ async function scrapeBooks(url: string) {
   const bookElements = dom.window.document.querySelectorAll(
     "tr[itemtype='http://schema.org/Book']"
   );
-  const books = Array.from(bookElements).map((bookElement) => {
-    const titleElement = bookElement.querySelector(".bookTitle span");
-    const authorElement = bookElement.querySelector(".authorName span");
-    const ratingElement = bookElement.querySelector(".minirating");
+  const books: Book[] = [];
+  const bar = new ProgressBar(":bar :percent", { total: bookElements.length });
 
-    const title = titleElement ? titleElement.textContent : null;
-    const author = authorElement ? authorElement.textContent : null;
-    const image = ""; // Set image to an empty string
-    let rating = null;
-    let ratingsCount = null;
-    if (ratingElement && ratingElement.textContent) {
-      const ratingText = ratingElement.textContent;
-      const match = ratingText.match(
-        /(\d+\.\d+) avg rating — (\d+(?:,\d+)*) ratings/
-      );
-      if (match) {
-        rating = Math.round(parseFloat(match[1]) * 20); // Convert rating to 0-100 scale and round to an integer
-        ratingsCount = parseInt(match[2].replace(/,/g, ""));
-      }
+  for (const bookElement of Array.from(bookElements)) {
+    const book = await scrapeBook(bookElement);
+    if (book) {
+      books.push(book);
     }
-
-    return { title, author, image, rating, ratingsCount };
-  });
+    bar.tick();
+    await new Promise((resolve) => setTimeout(resolve, 5000)); // Wait for 5 seconds
+  }
 
   return books;
 }
