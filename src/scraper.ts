@@ -45,7 +45,7 @@ async function main() {
     throw new Error("BOOKS_URL must be set in the .env file");
   }
   const books = await scrapeBooks(url);
-  fs.writeFileSync("output.json", JSON.stringify(books, null, 2));
+  fs.writeFileSync("books.json", JSON.stringify(books, null, 2));
 }
 
 main();
